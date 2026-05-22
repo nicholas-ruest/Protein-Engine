@@ -10,12 +10,15 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["vite/client"],
     "outDir": "dist",
     "rootDir": ".",
     "sourceMap": true,
     "paths": {
-      "pe-wasm": ["./pkg/pe_wasm"]
+      "pe-wasm": ["./pkg/pe_wasm"],
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src"]

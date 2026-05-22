@@ -5,6 +5,9 @@ target/
 node_modules/
 web/pkg/
 mcp/dist/
+web/dist/
+web/test-results/
+tests/e2e/web/node_modules
 
 # Python
 __pycache__/
